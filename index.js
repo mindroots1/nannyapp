@@ -4,7 +4,7 @@ const port_number = process.env.PORT || 3000
 const app = express()
 
 app.get('/',(req, res) => {
-    res.send("welcome")
+    res.status(400).send("this url is not valid")
 })
 
 app.get('/user',(req, res) => {
