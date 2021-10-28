@@ -5,7 +5,7 @@ const app = express()
 const User = require('./models/User');
 
 app.get('/',(req, res) => {
-    res.status(400).send("this url is not valid")
+    res.status(400).send("this url is not valid!!")
 })
 
 app.get('/user',(req, res) => {
